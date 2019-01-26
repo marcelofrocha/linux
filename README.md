@@ -1,5 +1,5 @@
 # linux
-Some linux stuff to speed up production
+Some linux stuff to speed up production. You can copy the entire command list bellow and create a .sh for example install.sh and run in terminal with \. install.sh
 
 #Nginx, MariaDB, PHP7.2, PHPMyAdmin:
 
@@ -32,6 +32,7 @@ sudo phpenmod mcrypt
 
 sudo phpenmod mbstring
 
+
 #Visual Studio Code
 
 sudo apt-get install snapd snapd-xdg-open
@@ -43,8 +44,10 @@ sudo snap refresh vscode
 
 #Sublime Text
 
+
 #Filezilla
 sudo apt-get install filezilla
+
 
 #Google Chrome
 sudo sh -c 'echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" >> /etc/apt/sources.list.d/google.list'
@@ -55,6 +58,8 @@ sudo apt-get update
 
 sudo apt-get install google-chrome-stable
 
+
 #MySQL Workbench
+
 sudo apt install mysql-workbench
 
